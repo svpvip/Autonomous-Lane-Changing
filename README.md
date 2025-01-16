@@ -22,5 +22,13 @@ Code
 ---------------------------------
 The project's code is all stored in the `final_project.py` and the `code screenshots` folder. I imported the required motor functions and the components that were plugged into the ports, and I defined functions for the blinker, such as the `turn_signal_on()` function:
 ```
+def turn_signal_on(choose_led):
+  choose_led.on()
+  sleep(0.5)
+  choose_led.off()
+  sleep(0.5)
+```
+The main logic resides in the `while` loop, where it constantly checks if the turn signal is being pressed down. If it is, then the distance sensors will determine if there is enough space for the car to merge:
+```
 
 ```
