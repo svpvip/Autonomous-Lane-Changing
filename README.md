@@ -61,6 +61,7 @@ Challenges
 - I troubleshooted by changing Pi-tops, the bottom plate, the sensors, as well as the ports
 - I switched over to an Ethernet cable when my WiFi connection wasn't working
 - I ended up losing a couple days of time due to this, and one way I could have avoided this is by periodically testing and checking if my Pi-top worked so I wouldn't have to make major adjustments at the end
+
 Future Improvements
 ---------------------------------
 - With more time, I would like to have tested out different levels of turning to find the most optimal turn angle for staying in a completely new lane
