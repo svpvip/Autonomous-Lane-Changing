@@ -30,5 +30,24 @@ def turn_signal_on(choose_led):
 ```
 The main logic resides in the `while` loop, where it constantly checks if the turn signal is being pressed down. If it is, then the distance sensors will determine if there is enough space for the car to merge:
 ```
+while True:
+  if left_button.is_pressed:
+    isPressed = True
+    if isPressed:
+      if front_sensor.distance <= 0.4 or back_sensor.distance <= 0.4:
+        #code to stop the car from merging
+        screen.display_text("Too close!")
+        turn_signal_off(back_left_led)
+        sleep(2.5)
+        counter = 0
+      else:
+        #code that checks if the road stays safe to merge
+        screen.display_text("Safe!")
+        turn_signal_on(back_left_led)
+        counter += 1
+        print(counter)
+```
+Once it is safe to merge, the motors will activate and spin the wheels at different rates to turn the car, one instance shown here:
+```
 
 ```
