@@ -2,6 +2,8 @@
 Digital Electronics Final Project, Srikar Punnamaraju
 ---------------------------------
 My final project is a car/tuk-tuk using th Pi-top that can detect its surroundings, which are the front-right/front-left and back-right/back-left of the car, and if there are no objects such as other cars in the way, it will proceed to change langes into the direction that was indicated by the blinker.
+- The demo video is linked in `videolink.md` to a Google Drive video
+- My digital notebook (for a more detailed and up-to-date log on my project): https://docs.google.com/document/d/1c7jsFXVZwEOZ77Z22pz0kHbZLW0gqdWF3dg5Z6gTTTI/edit?usp=sharing
 
 ![final model](https://github.com/svpvip/Autonomous-Lane-Changing/blob/main/final_build.jpg)
 
