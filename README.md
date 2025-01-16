@@ -56,6 +56,7 @@ right_motor.set_target_rpm(-70)
 sleep(1.25)
 left_motor.set_target_rpm(70)
 right_motor.set_target_rpm(-100)
+sleep(1.25)
 ```
 Challenges
 ---------------------------------
