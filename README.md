@@ -15,3 +15,7 @@ The build of the body went through a few different modifications while I was des
 
 Code
 ---------------------------------
+The project's code is all stored in the `final_project.py` and the `code screenshots` folder. I imported the required motor functions and the components that were plugged into the ports, and I defined functions for the blinker, such as the `turn_signal_on()` function:
+```
+
+```
