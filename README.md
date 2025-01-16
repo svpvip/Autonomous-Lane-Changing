@@ -60,7 +60,7 @@ sleep(1.25)
 ```
 Challenges
 ---------------------------------
-- When I was testing with my Pi-top, it would not stay on fore more than a minute or so
+- When I was testing with my Pi-top, it would not stay on for more than a minute or so
 - I troubleshooted by changing Pi-tops, the bottom plate, the sensors, as well as the ports
 - I switched over to an Ethernet cable when my WiFi connection wasn't working
 - I ended up losing a couple days of time due to this, and one way I could have avoided this is by periodically testing and checking if my Pi-top worked so I wouldn't have to make major adjustments at the end
