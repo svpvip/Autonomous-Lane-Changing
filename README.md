@@ -20,7 +20,7 @@ Build
 
 Code
 ---------------------------------
-The project's code is all stored in the `final_project.py` and the `code screenshots` folder. I imported the required motor functions and the components that were plugged into the ports, and I defined functions for the blinker, such as the `turn_signal_on()` function:
+The project's code is all stored in the `final_project.py` and the `code screenshots` folder, use these as a reference for the full code instead of the snippets down here. I imported the required motor functions and the components that were plugged into the ports, and I defined functions for the blinker, such as the `turn_signal_on()` function:
 ```
 def turn_signal_on(choose_led):
   choose_led.on()
@@ -49,5 +49,11 @@ while True:
 ```
 Once it is safe to merge, the motors will activate and spin the wheels at different rates to turn the car, one instance shown here:
 ```
-
+left_motor.set_target_rpm(100)
+right_motor.set_target_rpm(-70)
+sleep(1.25)
+left_motor.set_target_rpm(70)
+right_motor.set_target_rpm(-100)
 ```
+Challenges
+---------------------------------
