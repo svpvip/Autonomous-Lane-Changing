@@ -57,3 +57,11 @@ right_motor.set_target_rpm(-100)
 ```
 Challenges
 ---------------------------------
+- When I was testing with my Pi-top, it would not stay on fore more than a minute or so
+- I troubleshooted by changing Pi-tops, the bottom plate, the sensors, as well as the ports
+- I switched over to an Ethernet cable when my WiFi connection wasn't working
+- I ended up losing a couple days of time due to this, and one way I could have avoided this is by periodically testing and checking if my Pi-top worked so I wouldn't have to make major adjustments at the end
+Future Improvements
+---------------------------------
+- With more time, I would like to have tested out different levels of turning to find the most optimal turn angle for staying in a completely new lane
+- I also would have liked to be able to implement all of the sensors that I wanted to use to give the vehicle the capability to merge into the left lane as well
